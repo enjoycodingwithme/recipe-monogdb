@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.springframework.controllers.IndexControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-08-08T20:31:36" hostname="enjoys-Mac.local" time="0.102">
+  <properties/>
+  <testcase name="getIndexPage" classname="guru.springframework.controllers.IndexControllerTest" time="0.069"/>
+  <testcase name="testMockMVC" classname="guru.springframework.controllers.IndexControllerTest" time="0.032"/>
+  <system-out><![CDATA[2020-08-08 22:31:36.339  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 22:31:36.339  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 22:31:36.340  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
