@@ -1,37 +1,3 @@
-  Skip to content
-    Search or jump to…
-
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @enjoycodingwithme
-    Learn Git and GitHub without any code!
-    Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-    springframeworkguru
-    /
-    spring5-reactive-mongo-recipe-app
-    3
-    21280
-    Code
-    Issues
-    Pull requests
-    6
-    Actions
-    Projects
-    Wiki
-    Security
-    Insights
-    spring5-reactive-mongo-recipe-app/.circleci/config.yml
-    @springframeworkguru
-    springframeworkguru Init Project Add
-    Latest commit b8e95dc on 17 Aug 2017
-    History
-    1 contributor
-    59 lines (46 sloc)  1.49 KB
 
   # Java Maven CircleCI 2.0 configuration file
 
