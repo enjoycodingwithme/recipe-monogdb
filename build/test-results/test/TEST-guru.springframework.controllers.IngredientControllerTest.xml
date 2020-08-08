@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.springframework.controllers.IngredientControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-08-08T20:31:35" hostname="enjoys-Mac.local" time="0.339">
+<testsuite name="guru.springframework.controllers.IngredientControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-08-08T21:12:55" hostname="enjoys-Mac.local" time="0.24">
   <properties/>
-  <testcase name="testNewIngredientForm" classname="guru.springframework.controllers.IngredientControllerTest" time="0.103"/>
-  <testcase name="testShowIngredient" classname="guru.springframework.controllers.IngredientControllerTest" time="0.03"/>
-  <testcase name="testListIngredients" classname="guru.springframework.controllers.IngredientControllerTest" time="0.029"/>
-  <testcase name="testUpdateIngredientForm" classname="guru.springframework.controllers.IngredientControllerTest" time="0.087"/>
-  <testcase name="testDeleteIngredient" classname="guru.springframework.controllers.IngredientControllerTest" time="0.043"/>
-  <testcase name="testSaveOrUpdate" classname="guru.springframework.controllers.IngredientControllerTest" time="0.031"/>
-  <system-out><![CDATA[2020-08-08 22:31:35.844  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-08 22:31:35.844  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-08 22:31:35.850  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2020-08-08 22:31:35.875  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-08 22:31:35.876  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-08 22:31:35.876  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2020-08-08 22:31:35.907  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-08 22:31:35.908  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-08 22:31:35.908  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2020-08-08 22:31:35.994  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-08 22:31:35.996  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-08 22:31:35.997  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2020-08-08 22:31:36.054  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-08 22:31:36.054  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-08 22:31:36.056  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2020-08-08 22:31:36.087  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-08 22:31:36.087  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-08 22:31:36.089  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+  <testcase name="testNewIngredientForm" classname="guru.springframework.controllers.IngredientControllerTest" time="0.108"/>
+  <testcase name="testShowIngredient" classname="guru.springframework.controllers.IngredientControllerTest" time="0.027"/>
+  <testcase name="testListIngredients" classname="guru.springframework.controllers.IngredientControllerTest" time="0.024"/>
+  <testcase name="testUpdateIngredientForm" classname="guru.springframework.controllers.IngredientControllerTest" time="0.03"/>
+  <testcase name="testDeleteIngredient" classname="guru.springframework.controllers.IngredientControllerTest" time="0.026"/>
+  <testcase name="testSaveOrUpdate" classname="guru.springframework.controllers.IngredientControllerTest" time="0.024"/>
+  <system-out><![CDATA[2020-08-08 23:12:55.809  INFO 1760 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 23:12:55.809  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 23:12:55.810  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2020-08-08 23:12:55.844  INFO 1760 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 23:12:55.844  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 23:12:55.844  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2020-08-08 23:12:55.873  INFO 1760 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 23:12:55.873  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 23:12:55.873  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2020-08-08 23:12:55.903  INFO 1760 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 23:12:55.903  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 23:12:55.904  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2020-08-08 23:12:55.930  INFO 1760 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 23:12:55.930  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 23:12:55.931  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2020-08-08 23:12:55.953  INFO 1760 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 23:12:55.953  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 23:12:55.954  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

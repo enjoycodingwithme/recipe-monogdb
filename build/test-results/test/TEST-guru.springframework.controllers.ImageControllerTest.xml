@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.springframework.controllers.ImageControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-08T20:31:36" hostname="enjoys-Mac.local" time="0.124">
+<testsuite name="guru.springframework.controllers.ImageControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-08T21:12:55" hostname="enjoys-Mac.local" time="0.141">
   <properties/>
-  <testcase name="getImageForm" classname="guru.springframework.controllers.ImageControllerTest" time="0.044"/>
-  <testcase name="handleImagePost" classname="guru.springframework.controllers.ImageControllerTest" time="0.038"/>
-  <testcase name="renderImageFromDB" classname="guru.springframework.controllers.ImageControllerTest" time="0.042"/>
-  <system-out><![CDATA[2020-08-08 22:31:36.142  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-08 22:31:36.142  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-08 22:31:36.143  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2020-08-08 22:31:36.165  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-08 22:31:36.165  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-08 22:31:36.165  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2020-08-08 22:31:36.216  INFO 1243 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-08 22:31:36.222  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-08 22:31:36.223  INFO 1243 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+  <testcase name="getImageForm" classname="guru.springframework.controllers.ImageControllerTest" time="0.067"/>
+  <testcase name="handleImagePost" classname="guru.springframework.controllers.ImageControllerTest" time="0.035"/>
+  <testcase name="renderImageFromDB" classname="guru.springframework.controllers.ImageControllerTest" time="0.036"/>
+  <system-out><![CDATA[2020-08-08 23:12:56.027  INFO 1760 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 23:12:56.028  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 23:12:56.028  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2020-08-08 23:12:56.051  INFO 1760 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 23:12:56.052  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 23:12:56.054  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2020-08-08 23:12:56.098  INFO 1760 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-08 23:12:56.101  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-08 23:12:56.101  INFO 1760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

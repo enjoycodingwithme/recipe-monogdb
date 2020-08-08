@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.springframework.domain.CategoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-08T20:31:36" hostname="enjoys-Mac.local" time="0.002">
+<testsuite name="guru.springframework.domain.CategoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-08T21:12:56" hostname="enjoys-Mac.local" time="0.0">
   <properties/>
   <testcase name="getId" classname="guru.springframework.domain.CategoryTest" time="0.0"/>
   <testcase name="getDescription" classname="guru.springframework.domain.CategoryTest" time="0.0"/>
-  <testcase name="getRecipes" classname="guru.springframework.domain.CategoryTest" time="0.001"/>
+  <testcase name="getRecipes" classname="guru.springframework.domain.CategoryTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
