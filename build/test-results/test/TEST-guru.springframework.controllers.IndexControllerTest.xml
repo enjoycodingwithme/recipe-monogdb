@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.springframework.controllers.IndexControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-08-09T16:34:48" hostname="enjoys-Mac.local" time="0.77">
+<testsuite name="guru.springframework.controllers.IndexControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-08-09T17:17:44" hostname="enjoys-Mac.local" time="0.101">
   <properties/>
-  <testcase name="getIndexPage" classname="guru.springframework.controllers.IndexControllerTest" time="0.74"/>
-  <testcase name="testMockMVC" classname="guru.springframework.controllers.IndexControllerTest" time="0.03"/>
-  <system-out><![CDATA[2020-08-09 18:34:49.202  INFO 1417 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
-2020-08-09 18:34:49.203  INFO 1417 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-08-09 18:34:49.203  INFO 1417 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+  <testcase name="getIndexPage" classname="guru.springframework.controllers.IndexControllerTest" time="0.071"/>
+  <testcase name="testMockMVC" classname="guru.springframework.controllers.IndexControllerTest" time="0.029"/>
+  <system-out><![CDATA[2020-08-09 19:17:44.795  INFO 1777 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-08-09 19:17:44.796  INFO 1777 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-09 19:17:44.797  INFO 1777 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
