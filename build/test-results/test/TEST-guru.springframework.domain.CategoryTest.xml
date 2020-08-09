@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.springframework.domain.CategoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-08T21:40:50" hostname="enjoys-Mac.local" time="0.001">
+<testsuite name="guru.springframework.domain.CategoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-09T16:34:49" hostname="enjoys-Mac.local" time="0.0">
   <properties/>
   <testcase name="getId" classname="guru.springframework.domain.CategoryTest" time="0.0"/>
   <testcase name="getDescription" classname="guru.springframework.domain.CategoryTest" time="0.0"/>

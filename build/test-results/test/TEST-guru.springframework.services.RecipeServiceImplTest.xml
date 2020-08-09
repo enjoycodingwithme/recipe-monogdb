@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.springframework.services.RecipeServiceImplTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-08T21:40:50" hostname="enjoys-Mac.local" time="0.054">
+<testsuite name="guru.springframework.services.RecipeServiceImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-08-09T16:34:49" hostname="enjoys-Mac.local" time="0.153">
   <properties/>
-  <testcase name="getRecipeByIdTestNotFound" classname="guru.springframework.services.RecipeServiceImplTest" time="0.038"/>
-  <testcase name="testDeleteById" classname="guru.springframework.services.RecipeServiceImplTest" time="0.001"/>
-  <testcase name="getRecipesTest" classname="guru.springframework.services.RecipeServiceImplTest" time="0.004"/>
-  <testcase name="getRecipeByIdTest" classname="guru.springframework.services.RecipeServiceImplTest" time="0.002"/>
-  <testcase name="getRecipeCommandByIdTest" classname="guru.springframework.services.RecipeServiceImplTest" time="0.006"/>
+  <testcase name="testDeleteById" classname="guru.springframework.services.RecipeServiceImplTest" time="0.129"/>
+  <testcase name="getRecipesTest" classname="guru.springframework.services.RecipeServiceImplTest" time="0.005"/>
+  <testcase name="getRecipeByIdTest" classname="guru.springframework.services.RecipeServiceImplTest" time="0.001"/>
+  <testcase name="getRecipeCommandByIdTest" classname="guru.springframework.services.RecipeServiceImplTest" time="0.017"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.053s</div>
+<div class="counter">0.061s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">testFindByDescription</td>
-<td>0.036s</td>
+<td>0.038s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSaveUom</td>
-<td>0.017s</td>
+<td>0.023s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -92,12 +92,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2020-08-08 23:40:48.674  INFO 2028 --- [    Test worker] t.a.d.m.DataMongoTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [guru.springframework.repositories.UnitOfMeasureRepositoryIT], using SpringBootContextLoader
-2020-08-08 23:40:48.676  INFO 2028 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [guru.springframework.repositories.UnitOfMeasureRepositoryIT]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-08-08 23:40:48.676  INFO 2028 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [guru.springframework.repositories.UnitOfMeasureRepositoryIT]: UnitOfMeasureRepositoryIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-08-08 23:40:48.679  INFO 2028 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration guru.springframework.Spring5MongoRecipeAppApplication for test class guru.springframework.repositories.UnitOfMeasureRepositoryIT
-2020-08-08 23:40:48.680  INFO 2028 --- [    Test worker] t.a.d.m.DataMongoTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2020-08-08 23:40:48.681  INFO 2028 --- [    Test worker] t.a.d.m.DataMongoTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3115d960, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5745b8de, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@797bb07e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@578ddabd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@484cd7f5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32b5156a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1669ab02, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2f08c340, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1d54a2b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b51113e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@403b88ed, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@29404169]
+<pre>2020-08-09 18:34:46.735  INFO 1417 --- [    Test worker] t.a.d.m.DataMongoTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [guru.springframework.repositories.UnitOfMeasureRepositoryIT], using SpringBootContextLoader
+2020-08-09 18:34:46.736  INFO 1417 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [guru.springframework.repositories.UnitOfMeasureRepositoryIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-09 18:34:46.737  INFO 1417 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [guru.springframework.repositories.UnitOfMeasureRepositoryIT]: UnitOfMeasureRepositoryIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-09 18:34:46.741  INFO 1417 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration guru.springframework.Spring5MongoRecipeAppApplication for test class guru.springframework.repositories.UnitOfMeasureRepositoryIT
+2020-08-09 18:34:46.743  INFO 1417 --- [    Test worker] t.a.d.m.DataMongoTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-08-09 18:34:46.745  INFO 1417 --- [    Test worker] t.a.d.m.DataMongoTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@150c43fb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b956c7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4782d824, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6716c617, org.springframework.test.context.support.DirtiesContextTestExecutionListener@10f25295, org.springframework.test.context.transaction.TransactionalTestExecutionListener@59b43122, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8a681c8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59d1d8b5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5b354fe0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@23f04885, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1f6425f2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@48a742db]
 </pre>
 </span>
 </div>
@@ -109,7 +109,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4</a> at 08-Aug-2020 23:40:56</p>
+<a href="http://www.gradle.org">Gradle 4.4</a> at 09-Aug-2020 18:34:50</p>
 </div>
 </div>
 </body>

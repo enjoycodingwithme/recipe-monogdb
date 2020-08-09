@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.springframework.converters.RecipeToRecipeCommandTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-08T21:40:15" hostname="enjoys-Mac.local" time="0.01">
+<testsuite name="guru.springframework.converters.RecipeToRecipeCommandTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-09T16:34:12" hostname="enjoys-Mac.local" time="0.013">
   <properties/>
   <testcase name="testEmptyObject" classname="guru.springframework.converters.RecipeToRecipeCommandTest" time="0.004"/>
-  <testcase name="convert" classname="guru.springframework.converters.RecipeToRecipeCommandTest" time="0.005"/>
+  <testcase name="convert" classname="guru.springframework.converters.RecipeToRecipeCommandTest" time="0.002"/>
   <testcase name="testNullObject" classname="guru.springframework.converters.RecipeToRecipeCommandTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
