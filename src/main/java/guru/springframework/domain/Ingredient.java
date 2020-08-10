@@ -5,6 +5,9 @@ import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.util.UUID;
 
@@ -19,7 +22,6 @@ public class Ingredient {
     private String description;
     private BigDecimal amount;
     private UnitOfMeasure uom;
-
     public Ingredient() {
 
     }
