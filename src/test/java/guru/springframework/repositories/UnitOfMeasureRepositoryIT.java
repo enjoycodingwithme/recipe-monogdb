@@ -2,7 +2,6 @@ package guru.springframework.repositories;
 
 import guru.springframework.bootstrap.RecipeBootstrap;
 import guru.springframework.domain.UnitOfMeasure;
-import guru.springframework.repositories.reactive.UnitOfMeasureReactiveRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,44 +16,45 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by jt on 6/17/17.
  */
-
 @RunWith(SpringRunner.class)
 @DataMongoTest
 public class UnitOfMeasureRepositoryIT {
 
-    public static final String EACH = "Each";
+    @Autowired
+    UnitOfMeasureRepository unitOfMeasureRepository;
 
     @Autowired
-    UnitOfMeasureReactiveRepository unitOfMeasureReactiveRepository;
+    CategoryRepository categoryRepository;
+
+    @Autowired
+    RecipeRepository recipeRepository;
 
     @Before
     public void setUp() throws Exception {
-        unitOfMeasureReactiveRepository.deleteAll().block();
+
+        recipeRepository.deleteAll();
+        unitOfMeasureRepository.deleteAll();
+        categoryRepository.deleteAll();
+
+        RecipeBootstrap recipeBootstrap = new RecipeBootstrap(categoryRepository, recipeRepository, unitOfMeasureRepository);
+
+        recipeBootstrap.onApplicationEvent(null);
     }
 
     @Test
-    public void testSaveUom() throws Exception {
-        UnitOfMeasure uom = new UnitOfMeasure();
-        uom.setDescription(EACH);
+    public void findByDescription() throws Exception {
 
-        unitOfMeasureReactiveRepository.save(uom).block();
+        Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Teaspoon");
 
-        Long count = unitOfMeasureReactiveRepository.count().block();
-
-        assertEquals(Long.valueOf(1L), count);
-
+        assertEquals("Teaspoon", uomOptional.get().getDescription());
     }
 
     @Test
-    public void testFindByDescription() throws Exception {
-        UnitOfMeasure uom = new UnitOfMeasure();
-        uom.setDescription(EACH);
+    public void findByDescriptionCup() throws Exception {
 
-        unitOfMeasureReactiveRepository.save(uom).block();
+        Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Cup");
 
-        UnitOfMeasure fetchedUOM = unitOfMeasureReactiveRepository.findByDescription(EACH).block();
-
-        assertEquals(EACH, fetchedUOM.getDescription());
-
+        assertEquals("Cup", uomOptional.get().getDescription());
     }
+
 }

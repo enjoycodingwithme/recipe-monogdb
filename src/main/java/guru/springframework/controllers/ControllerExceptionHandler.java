@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.support.WebExchangeBindException;
-//import org.springframework.web.servlet.ModelAndView;
+
 
 /**
  * Created by jt on 7/14/17.
@@ -20,8 +20,9 @@ public class ControllerExceptionHandler {
     @ExceptionHandler(WebExchangeBindException.class)
     public String handleNumberFormat(Exception exception, Model model){
 
-        log.error("Handling bindingt Exception");
+        log.error("Handling Binding Exception");
         log.error(exception.getMessage());
+
         model.addAttribute("exception", exception);
 
         return "400error";

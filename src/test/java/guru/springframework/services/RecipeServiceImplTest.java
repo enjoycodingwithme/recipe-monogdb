@@ -5,8 +5,6 @@ import guru.springframework.commands.RecipeCommand;
 import guru.springframework.converters.RecipeCommandToRecipe;
 import guru.springframework.converters.RecipeToRecipeCommand;
 import guru.springframework.domain.Recipe;
-import guru.springframework.exceptions.NotFoundException;
-import guru.springframework.repositories.RecipeRepository;
 import guru.springframework.repositories.reactive.RecipeReactiveRepository;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,8 +15,6 @@ import reactor.core.publisher.Mono;
 
 import java.util.HashSet;
 import java.util.List;
-import java.util.Optional;
-import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -51,6 +47,7 @@ public class RecipeServiceImplTest {
     public void getRecipeByIdTest() throws Exception {
         Recipe recipe = new Recipe();
         recipe.setId("1");
+
         when(recipeReactiveRepository.findById(anyString())).thenReturn(Mono.just(recipe));
 
         Recipe recipeReturned = recipeService.findById("1").block();
@@ -59,6 +56,7 @@ public class RecipeServiceImplTest {
         verify(recipeReactiveRepository, times(1)).findById(anyString());
         verify(recipeReactiveRepository, never()).findAll();
     }
+
 
     @Test
     public void getRecipeCommandByIdTest() throws Exception {
@@ -101,10 +99,10 @@ public class RecipeServiceImplTest {
         //given
         String idToDelete = "2";
 
+        when(recipeReactiveRepository.deleteById(anyString())).thenReturn(Mono.empty());
+
         //when
         recipeService.deleteById(idToDelete);
-
-        //no 'when', since method has void return type
 
         //then
         verify(recipeReactiveRepository, times(1)).deleteById(anyString());
